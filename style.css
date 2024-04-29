@@ -59,13 +59,13 @@ body {
     margin-bottom: 24px;
 }
 
-.notas {
+.botoes {
     display: flex;
     justify-content: space-between;
     margin-bottom: 32px;
 }
 
-.notas button {
+.botoes button {
     width: 51px;
     height: 51px;
     font-size: 16px;
@@ -79,13 +79,13 @@ body {
     transition: all ease-in-out 0.25s;
 }
 
-.notas button:hover {
+.botoes button:hover {
     color: var(--white);
     background: var(--orange);
     cursor: pointer;
 }
 
-.notas button:focus {
+.botoes button:focus {
     color: var(--white);
     background-color: var(--light-gray);
 }
